@@ -95,3 +95,21 @@ button {
 button:hover {
   background-color: green;
 }
+
+@media screen and (max-width: 400px) {
+  .item {
+    flex-direction: column;
+  }
+  .item-controls {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .item-price {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+  }
+  .remove-btn {
+    margin-left: 0;
+  }
+}
